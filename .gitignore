@@ -13,10 +13,10 @@ env/                # Environnement virtuel nommé env
 venv/               # Environnement virtuel nommé venv
 
 # 📁 Fichiers temporaires Jupyter
-.ipynb_checkpoints/ # Sauvegardes auto Jupyter
+.ipynb_checkpoints/ # Sauvegardes automatiques de Jupyter
 
-# 📊 Données locales (à ne pas versionner)
-*.csv               # Fichiers CSV
+# 📊 Données locales (datasets & outputs)
+*.csv               # Fichiers CSV (datasets, outputs, etc.)
 *.xlsx              # Fichiers Excel
 *.json              # Fichiers JSON
 
@@ -24,12 +24,16 @@ venv/               # Environnement virtuel nommé venv
 *.pkl               # Modèles sauvegardés en pickle
 *.joblib            # Modèles sauvegardés avec joblib
 
+# 👇 Exceptions à versionner
+!model.pkl
+!scaler.pkl
+
 # 🧾 Logs & fichiers d'erreurs
 *.log               # Fichiers de log
 
 # 🌐 Configurations locales Streamlit
-.streamlit/         # Paramètres locaux Streamlit
+.streamlit/         # Paramètres utilisateur Streamlit (non requis pour déploiement)
 
 # 📄 Fichiers HTML exportés
 *.html              # Ignore tous les fichiers HTML...
-!churn.html         # ... sauf churn.html (à conserver dans le repo)
+!churn.html         # ... sauf churn.html (qu’on souhaite conserver dans le repo)
