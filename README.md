@@ -20,8 +20,6 @@ Ce projet a pour but de :
 ```
 churn/
 ├── app.py                    ← Application Streamlit
-├── model.pkl                 ← Modèle RandomForest entraîné
-├── scaler.pkl                ← Scaler StandardScaler pour les prédictions
 ├── df_model.csv              ← Données préparées pour la modélisation
 ├── Telco-Customer-Churn.csv ← Données brutes (optionnel)
 ├── train_pipeline.py         ← Pipeline complet d'entraînement
