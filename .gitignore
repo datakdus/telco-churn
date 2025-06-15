@@ -1,0 +1,34 @@
+# 🔧 Fichiers système et IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# 🐍 Fichiers Python compilés
+__pycache__/
+*.py[cod]
+
+# 📦 Environnements virtuels
+env/
+venv/
+
+# 📁 Fichiers temporaires Jupyter
+.ipynb_checkpoints/
+
+# 📊 Données locales
+*.csv
+*.xlsx
+*.json
+
+# 🧠 Modèles & objets sérialisés
+*.pkl
+*.joblib
+
+# 🧾 Logs & erreurs
+*.log
+
+# 🌐 Configurations Streamlit locales
+.streamlit/
+
+# 📄 Fichiers HTML exportés
+*.html
