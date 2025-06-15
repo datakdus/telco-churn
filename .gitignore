@@ -1,35 +1,35 @@
 # 🔧 Fichiers système et IDE
-.DS_Store
-Thumbs.db
-.vscode/
-.idea/
+.DS_Store           # macOS
+Thumbs.db           # Windows
+.vscode/            # Dossier de configuration VS Code
+.idea/              # Dossier de configuration PyCharm
 
 # 🐍 Fichiers Python compilés
-__pycache__/
-*.py[cod]
+__pycache__/        # Cache Python
+*.py[cod]           # Fichiers compilés .pyc, .pyo, .pyd
 
 # 📦 Environnements virtuels
-env/
-venv/
+env/                # Environnement virtuel nommé env
+venv/               # Environnement virtuel nommé venv
 
 # 📁 Fichiers temporaires Jupyter
-.ipynb_checkpoints/
+.ipynb_checkpoints/ # Sauvegardes auto Jupyter
 
-# 📊 Données locales
-*.csv
-*.xlsx
-*.json
+# 📊 Données locales (à ne pas versionner)
+*.csv               # Fichiers CSV
+*.xlsx              # Fichiers Excel
+*.json              # Fichiers JSON
 
 # 🧠 Modèles & objets sérialisés
-*.pkl
-*.joblib
+*.pkl               # Modèles sauvegardés en pickle
+*.joblib            # Modèles sauvegardés avec joblib
 
-# 🧾 Logs & erreurs
-*.log
+# 🧾 Logs & fichiers d'erreurs
+*.log               # Fichiers de log
 
-# 🌐 Configurations Streamlit locales
-.streamlit/
+# 🌐 Configurations locales Streamlit
+.streamlit/         # Paramètres locaux Streamlit
 
 # 📄 Fichiers HTML exportés
-*.html
-!churn.html
+*.html              # Ignore tous les fichiers HTML...
+!churn.html         # ... sauf churn.html (à conserver dans le repo)
