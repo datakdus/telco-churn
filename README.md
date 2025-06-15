@@ -8,10 +8,10 @@ Bienvenue dans ce projet de **data science appliquée à la fidélisation client
 
 Ce projet a pour but de :
 
-- Prédire si un client risque de résilier son contrat (churn)
-- Comprendre les variables influentes sur le churn
-- Fournir des recommandations métier
-- Proposer une **application web interactive** développée avec Streamlit
+- Prédire si un client risque de résilier son contrat (churn)  
+- Comprendre les variables influentes sur le churn  
+- Fournir des recommandations métier  
+- Proposer une **application web interactive** développée avec Streamlit  
 
 ---
 
@@ -40,18 +40,18 @@ Les données proviennent d’un jeu de données public de type Telco :
 - **Colonnes** : informations client, contrat, paiements, services souscrits  
 - **Target** : `Churn` (binaire : 1 = résiliation, 0 = client fidèle)  
 - **Nettoyage** : gestion des valeurs manquantes, encodage LabelEncoder, capping  
-- **Rééquilibrage** : sur-échantillonnage avec SMOTE
+- **Rééquilibrage** : sur-échantillonnage avec SMOTE  
 
 ---
 
 ## ⚙️ Pipeline de modélisation
 
-- 🧹 Nettoyage des données (doublons, valeurs aberrantes)
-- 🔢 Encodage des variables catégorielles
-- ⚖️ Redressement du déséquilibre avec SMOTE
-- 📏 Mise à l’échelle des variables numériques
-- 🌲 Entraînement d’un modèle Random Forest
-- 💾 Sauvegarde du modèle et des artefacts
+- 🧹 Nettoyage des données (doublons, valeurs aberrantes)  
+- 🔢 Encodage des variables catégorielles  
+- ⚖️ Redressement du déséquilibre avec SMOTE  
+- 📏 Mise à l’échelle des variables numériques  
+- 🌲 Entraînement d’un modèle Random Forest  
+- 💾 Sauvegarde du modèle et des artefacts  
 
 📁 Script : `train_pipeline.py`
 
@@ -61,11 +61,11 @@ Les données proviennent d’un jeu de données public de type Telco :
 
 L'app `app.py` permet :
 
-- 📁 **Prédiction en masse** (batch) via fichier CSV
-- 👤 **Prédiction manuelle** via formulaire interactif
-- 📊 **Visualisation des résultats** (camembert, histogrammes)
-- 📌 **Recommandations métier personnalisées**
-- 📘 **Page "À propos"** avec détails techniques et auteur
+- 📁 **Prédiction en masse** (batch) via fichier CSV  
+- 👤 **Prédiction manuelle** via formulaire interactif  
+- 📊 **Visualisation des résultats** (camembert, histogrammes)  
+- 📌 **Recommandations métier personnalisées**  
+- 📘 **Page "À propos"** avec détails techniques et auteur  
 
 ---
 
@@ -92,8 +92,6 @@ streamlit run app.py
 
 ## 📌 À venir
 
-- ✅ Déploiement sur Streamlit Cloud
-- ✅ Ajout d’une prédiction manuelle plus complète
-- ✅ Interprétabilité avec SHAP ou LIME
-
----
+- ✅ Déploiement sur Streamlit Cloud  
+- ✅ Ajout d’une prédiction manuelle plus complète  
+- ✅ Interprétabilité avec SHAP ou LIME  
