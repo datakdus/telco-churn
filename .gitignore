@@ -32,3 +32,4 @@ venv/
 
 # 📄 Fichiers HTML exportés
 *.html
+!churn.html
